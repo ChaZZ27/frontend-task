@@ -9,6 +9,7 @@
 -   implemented navigation with Links in Header
 -   added basic post cards animation
 -   keept consistency in headlines for desktop & mobile devices
+-   implemented basic e2e & components tests
 
 # Gigaclear Code Challenge - Frontend NextJs
 
