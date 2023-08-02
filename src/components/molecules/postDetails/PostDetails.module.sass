@@ -1,0 +1,58 @@
+@import ../../../styles/base/vars
+
+.postDetails
+    width: 100%
+
+    .postDetailsWrapper
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        justify-content: space-between
+        align-items: center
+
+        .postDetailTitle
+            font-size: 18px
+            font-weight: 700
+            letter-spacing: 1px
+            font-family: 'Inter'
+            color: $red
+            margin: 0 0 10px
+        .postDetailType 
+            margin-right: 40px
+
+        .postDetailType, .postDetailDate
+            font-size: 18px
+            font-weight: 700
+            letter-spacing: 1px
+            font-family: 'Inter'
+            color: $primary
+
+
+    .date
+        font-weight: 700
+        font-family: 'Inter'
+        font-size: 14px
+        text-transform: uppercase
+        text-align: center
+        letter-spacing: 1px
+        color: $black-secondary
+        margin: 15px 0
+
+    .postDetailButton
+        background-color: $primary
+        border-radius: 40px
+        padding: 12px 24px
+        color: #ffffff
+        font-size: 16px
+        font-weight: 700
+        font-family: 'Inter'
+        text-align: center
+        border: 0
+        margin: 5px 0
+        cursor: pointer
+        transition: box-shadow .3s ease
+        &:hover
+            box-shadow: 10px 10px rgba($black, .2)
+
+
+
